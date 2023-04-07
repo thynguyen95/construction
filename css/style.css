@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  min-width: 1240px;
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -80,22 +84,17 @@
 .carousel {
   background: url("../img/carousel.jpg") no-repeat center/cover;
   padding: 200px 0;
-}
-
-.carousel__content {
-  width: 90%;
-  margin: 0 auto;
   text-align: center;
 }
 
-.carousel__content p {
+.carousel__text {
   font-size: 31px;
   line-height: 31px;
   color: #fff;
   font-weight: 700;
 }
 
-.carousel__content h2 {
+.carousel__title {
   font-size: 68px;
   line-height: 80px;
   color: #ffc601;
@@ -103,7 +102,7 @@
   margin: 30px 0;
 }
 
-.carousel__content h2 span {
+.carousel__title span {
   display: block;
   color: #fff;
 }
@@ -141,7 +140,7 @@
   font-weight: 700;
 }
 
-.introduction__title span {
+.introduction__title .introduction__line {
   display: block;
   width: 63px;
   height: 2px;
@@ -162,7 +161,7 @@
   background: #fbcf00;
 }
 
-.introduction__item:nth-child(even) .introduction__title span {
+.introduction__item:nth-child(even) .introduction__title .introduction__line {
   background: #2c2c2c;
 }
 
@@ -173,7 +172,7 @@
 }
 
 .about__left {
-  width: 30%;
+  width: 40%;
   float: left;
 }
 
@@ -800,7 +799,7 @@
 }
 
 .footer__copyright {
-  width: 25%;
+  width: 20%;
   float: left;
   font-size: 14px;
   line-height: 25px;
@@ -818,7 +817,7 @@
 }
 
 .footer__menu {
-  width: 50%;
+  width: 60%;
   float: left;
   text-align: center;
 }
@@ -846,7 +845,7 @@
 }
 
 .footer__social {
-  width: 25%;
+  width: 20%;
   float: left;
   text-align: right;
 }
