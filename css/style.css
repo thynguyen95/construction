@@ -52,6 +52,7 @@ body {
 .header__logo a {
   text-decoration: none;
   color: #2c2c2c;
+  font-weight: bold;
 }
 
 .header__logo i {
